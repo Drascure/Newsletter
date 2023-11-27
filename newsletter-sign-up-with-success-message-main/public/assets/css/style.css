@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img, input {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    --dark-Slate-Grey: rgb(36, 39, 66);
+    --charcoal-Grey: rgb(54, 56, 79);
+    --grey: rgb(146, 148, 160);
+    --white: rgb(255, 255, 255);
+}
+
+#illustration {
+    height: 30vh;
+    background-image: url("../img/illustration-sign-up-mobile.svg");
+    border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+}
+
+.list {
+    margin: .5rem 0;
+    display: flex;
+}
+.imgList {
+    width: 20px;
+    margin-right: 1rem;
+}
