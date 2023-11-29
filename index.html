@@ -44,8 +44,22 @@
                 <p id="alerte" class="hide">Valid email required</p>
             </div>
             <input type="email" name="email"  class="email" placeholder="email@company.com">
-            <a href="" id="submit">Subscribe to monthly newsletter</a>
+            <div id="submit">Subscribe to monthly newsletter</div>
+        </div>
+            
+        <!-- Popup de partage -->
+        <div class="popupBackground">
+            <div class="popup">
+                <div id="iconSuccess">
+                    <img src="./assets/img/icon-success.svg" alt="icon-success">
+                </div>
+                <h1 id="titleSuccess">Thanks for subscribing!</h1>
+                <p id="textSuccess">A confirmation email has been sent to <span id="mailUser"></span>. Please open it and click the button inside to confirm your subscription</p>
+                <div id="dismiss">Dismiss message</div>
+            </div>        
         </div>
     </main>
+
+    
 </body>
 </html>
